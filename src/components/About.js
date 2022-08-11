@@ -1,18 +1,18 @@
-function About() {
+function About(props) {
   return (
     <div className="about">
 
-      <p className="titre">About</p>
-      <p className="para">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+      <p className="titre">{props.titre}</p>
+      <p className="para">{props.description}
+        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
         nihil dolor beatae rem facilis quae sapiente tempora aperiam quidem
-        sunt.
+        sunt. */}
       </p>
-      <p className="titre">Interest</p>
+      {/* <p className="titre">Interest</p>
       <p className="para">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis
         minus molestiae itaque reprehenderit. Optio, quae.
-      </p>
+      </p> */}
     </div>
   );
 }

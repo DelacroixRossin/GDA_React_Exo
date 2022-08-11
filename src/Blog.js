@@ -13,7 +13,24 @@ function Blog() {
         <Profile />
         <Names />
         <Buttons />
-        <About />
+        <About
+        style={{
+            paddingBottom: 200,
+          }}
+          titre="About"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            nihil dolor beatae rem facilis quae sapiente tempora aperiam quidem
+            sunt."
+        />
+
+        <About
+          
+          titre="Interest"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
+            nihil dolor beatae rem facilis quae sapiente tempora aperiam quidem
+            sunt."
+        />
+
         <Social />
       </div>
     </div>
