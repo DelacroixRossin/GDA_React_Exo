@@ -7,10 +7,10 @@ function Social() {
   return (
     <div className="social">
       <div className="icons">
-       <a href="#"> <FaTwitterSquare /></a> 
-       <a href="#"> <FaFacebookSquare /></a> 
-       <a href="#"> <FaInstagramSquare /></a> 
-       <a href="#"> <FaGithubSquare /></a> 
+       <a href="/"> <FaTwitterSquare /></a> 
+       <a href="/"> <FaFacebookSquare /></a> 
+       <a href="/"> <FaInstagramSquare /></a> 
+       <a href="/"> <FaGithubSquare /></a> 
       </div>
     </div>
   );
