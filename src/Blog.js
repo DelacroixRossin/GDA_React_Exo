@@ -8,7 +8,7 @@ import Social from "./components/Social";
 
 function Blog() {
   return (
-    <div className="cardBody">
+   <div className="cardBody">
       <div className="card">
         <Profile />
         <Names />
@@ -16,7 +16,8 @@ function Blog() {
         <About />
         <Social />
       </div>
-    </div>
+      </div>
+ 
   );
 }
 export default Blog;
