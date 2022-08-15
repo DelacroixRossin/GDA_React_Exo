@@ -1,46 +1,97 @@
-/* body{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-  background-color: aliceblue;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
-
-}
-
-img{
-    width: 60px;
-    height: 60px;
-    padding: 20px 0px 20px 100px;
-}
-
-.bar{
+main {
     display: flex;
-    list-style-type: none;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
-    margin-left: auto;
-    padding-right: 100px;
-      
+    font-family: sans-serif;
+    background-color: #263646;
+}
+h2{
+    font-size: 4rem; 
+    color:  rgb(255, 153, 0);;
+}
+h4{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+.appContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+.interval-container{
+    display: flex;
+    margin: 0 20px;  
+    justify-content: center;
+    align-items: center;
+
 }
 
-a:hover{
-    color: rgb(22, 163, 245);
- 
+ .interval-length-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
 }
 
-.bas{
-    padding-top: 330px;
-    margin-left: 30%;
-} */
+button {
+    padding:  5px 12px;
+    margin : 0 20px;
+    height: 25px;
+    background-color: #152331;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(255, 153, 0);
+}
+
+button:disabled {
+    cursor: not-allowed;
+
+}
+
+.para{
+    font-size: 2rem;
+    margin: 0 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.timer{
+    border: 1px solid rgb(255, 153, 0);
+    margin-top: 40px;
+    border-radius: 25px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 10px black;
+    padding: 15px 30px 15px 30px;
+}
+
+.timerS{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.timerAction{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.buttonBas{
+    border-radius: 5px;
+    background-color: white;
+    color: #152331;
+    font-weight: 800;
+}
+.block25{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
